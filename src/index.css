@@ -1,0 +1,106 @@
+/* src/App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #6ae5f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #222;
+  font-size: 2rem;
+}
+
+.vote-info {
+  margin-bottom: 20px;
+}
+
+.vote-info p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.vote-info .reset-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vote-info .reset-btn:hover {
+  background-color: #c82333;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.person.highlight {
+  background-color: #ffd700;
+  border-color: #ffbf00;
+}
+
+.voteCount {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 50%;
+}
+
+.personName {
+  font-size: 1.25rem;
+  font-weight: bold;
+  flex: 1;
+  text-align: left;
+  margin-left: 15px;
+}
+
+button {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
